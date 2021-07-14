@@ -1,0 +1,53 @@
+GET http://localhost:8080/api/starship
+
+###
+
+GET http://localhost:8080/api/starship/BABYLON_5
+
+
+###
+
+POST http://localhost:8080/api/starship
+Content-Type: application/json
+
+{
+  "franchise": "STAR_TREK",
+  "name": "U.S.S. Reliant",
+  "registration": "NCC-1834",
+  "className": "Miranda"
+}
+
+###
+
+POST http://localhost:8080/api/starship
+Content-Type: application/json
+
+{
+  "franchise": "STAR_TREK",
+  "name": "U.S.S. Excelsior",
+  "registration": "NCC-2000",
+  "className": "Excelsior"
+}
+
+###
+
+POST http://localhost:8080/api/starship
+Content-Type: application/json
+
+{
+  "franchise": "STAR_TREK",
+  "name": "U.S.S. Pegasus",
+  "registration": "NCC-53847",
+  "className": "Oberth"
+}
+
+###
+
+POST http://localhost:8080/api/starship
+Content-Type: application/json
+
+{
+  "franchise": "BABYLON_5",
+  "name": "Babylon 5",
+  "className": "Babylon"
+}
